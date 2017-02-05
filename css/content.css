@@ -1,4 +1,7 @@
 .content{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 1em;
 }
 
@@ -14,6 +17,7 @@
 	float: right;
 	height: inherit;
 }
+
 
 .right_col{
 	float: right;
@@ -39,4 +43,32 @@
 .card_text_content{
 	display: inline-block;
 	opacity: 0.5;
+}
+
+.content_bottom{
+	margin-top: 1em;
+}
+
+.content_bottom img.footer_img{
+	margin-top: 1em;
+	width: 100%;
+}
+
+footer{
+	position: relative;
+	margin-top: 1em;
+	height: 3em;
+	color:#959595;
+	width: 100%;
+	background: #303030;
+	box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer .footer_text{
+	position: absolute;
+	margin-left: 20%;
+	top:50%;
+	transform: translateY(-50%);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 0.5em;
 }
