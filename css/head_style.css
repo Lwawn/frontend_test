@@ -9,7 +9,7 @@ header nav{
 	transform: translateY(-50%);
 	padding: 0.4em;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 0.75em;
 }
 
 
@@ -34,18 +34,18 @@ nav a:hover{
 .header_text{
 	font-family: "Times New Roman";
 	font-size:20px;
-	width: 70%;
+	width: 75%;
+	border-right: 1px solid #505050;
 }
 
 .header_text p{
 	margin-bottom: -1em;
 }
 
-.social_icons_wrapper{	
+.social_icons_wrapper{
 	position: relative;
 	float: right;
-	width: 30%;
-	border: 1px solid black;
+	width: 25%;
 }
 
 .social_icons_wrapper .social_icons{
@@ -53,5 +53,8 @@ nav a:hover{
 	top: 50%;
 	transform: translateY(-50%);
 	right: 0;
+}
 
+.header_bottom{
+	margin-bottom: 2.25em;
 }

@@ -1,0 +1,20 @@
+.content{
+	margin-top: 1em;
+}
+
+.content_block{
+	display: inline-block;
+	margin-top: 1em;
+	width: 49%;
+	height: 10em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content_block img{
+	float: right;
+	height: inherit;
+}
+
+.right_col{
+	float: right;
+}
