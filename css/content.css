@@ -6,7 +6,7 @@
 	display: inline-block;
 	margin-top: 1em;
 	width: 49%;
-	height: 10em;
+	height: 12em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -17,4 +17,26 @@
 
 .right_col{
 	float: right;
+}
+
+.content_block .card_text{
+	display: inline-block;
+	padding: 0.5em;
+	width: 35%;
+}
+
+.card_text hr{
+	float: left;
+	width: 35%;
+}
+
+.card_text_header{
+	margin: 0.25em;
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.card_text_content{
+	display: inline-block;
+	opacity: 0.5;
 }
