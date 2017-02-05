@@ -3,18 +3,28 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
+	position: relative;
 }
 
-header nav{
+header nav{	
 	float: right;
-	padding: 10px;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+	padding: 0.4em;
 	text-transform: uppercase;
 	font-size: 10px;
 }
-header nav:hover{
-	color:#AD6069;
+nav a{
+	text-decoration: none;
+	padding: 0.4em;
 }
 
-header nav a{
-	text-decoration: none;
+nav  a:link , nav  a:visited{
+	color: inherit;
+}
+
+nav a:hover{
+	color:#AD6069;
 }
