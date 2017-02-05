@@ -3,11 +3,9 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
-	position: relative;
 }
 
 header nav{	
-	float: right;
 	position: absolute;
 	top: 50%;
 	right: 0%;
@@ -16,6 +14,8 @@ header nav{
 	text-transform: uppercase;
 	font-size: 10px;
 }
+
+
 nav a{
 	text-decoration: none;
 	padding: 0.4em;
@@ -27,4 +27,9 @@ nav  a:link , nav  a:visited{
 
 nav a:hover{
 	color:#AD6069;
+}
+
+.head_top{
+	position: relative;
+	margin-bottom:1em;
 }
